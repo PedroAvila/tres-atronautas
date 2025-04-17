@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\common\astronautas.common\astronautas.common.csproj" />
+    <ProjectReference Include="..\..\..\domain\entities\astronautas.entity\astronautas.entity.csproj" />
+    <ProjectReference Include="..\..\..\domain\ports\astronautas.port\astronautas.port.csproj" />
+  </ItemGroup>
+
+</Project>

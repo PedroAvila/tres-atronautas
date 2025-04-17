@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\application\use-case\astronautas.usecase\astronautas.usecase.csproj" />
+    <ProjectReference Include="..\..\dto\astronautas.dto\astronautas.dto.csproj" />
+    <ProjectReference Include="..\..\entities\astronautas.entity\astronautas.entity.csproj" />
+    <ProjectReference Include="..\..\ports\astronautas.port\astronautas.port.csproj" />
+  </ItemGroup>
+
+</Project>

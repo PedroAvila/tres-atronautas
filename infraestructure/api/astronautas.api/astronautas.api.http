@@ -1,0 +1,6 @@
+@astronautas.api_HostAddress = http://localhost:5102
+
+GET {{astronautas.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
