@@ -68,6 +68,8 @@ builder
     });
 
 builder.Configuration["Jwt:Key"] = jwtKey;
+builder.Configuration["Jwt:Issuer"] = jwtIssuer;
+builder.Configuration["Jwt:Audience"] = jwtAudience;
 
 builder.Services.AddControllers();
 

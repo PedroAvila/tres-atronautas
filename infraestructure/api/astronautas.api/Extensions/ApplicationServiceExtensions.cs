@@ -3,6 +3,7 @@ using astronautas.common;
 using astronautas.port;
 using astronautas.service;
 using astronautas.usecase.Products.Create;
+using astronautas.usecase.Products.Get;
 using astronautas.usecase.Users;
 using astronautas.usecase.Users.Auth;
 
@@ -22,6 +23,7 @@ public static class ApplicationServiceExtensions
 
         /* Product */
         services.AddScoped<ICreateProductUseCase, CreateProductUseCase>();
+        services.AddScoped<IGetProductUseCase, GetProductUseCase>();
         services.AddScoped<IProductRepository, ProductRepository>();
     }
 }
